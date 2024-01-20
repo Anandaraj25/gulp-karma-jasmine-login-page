@@ -1,0 +1,28 @@
+{
+  "name": "gulp-karma-jasmine-login-page",
+  "version": "1.0.0",
+  "description": "Gulp Task for Simple Login Page with Jasmine Unit Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "karma",
+    "jasmine",
+    "login",
+    "bootstrap"
+  ],
+  "author": "Anandaraj25",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "karma": "^6.4.2",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-html2js-preprocessor": "^1.1.0",
+    "karma-htmlfile-reporter": "^0.3.8",
+    "karma-jasmine": "^5.1.0",
+    "karma-parallel": "^0.3.1",
+    "nodemailer": "^6.9.8"
+  }
+}
