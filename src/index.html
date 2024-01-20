@@ -1,0 +1,56 @@
+<!-- src/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Set the character set and viewport for better rendering -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <!-- Link to Bootstrap CSS for styling -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Main container with margin-top 5 -->
+<div class="container mt-5">
+  <!-- Row with content centered -->
+  <div class="row justify-content-center">
+    <!-- Medium-sized column (6 out of 12) -->
+    <div class="col-md-6">
+      <!-- Card for the login form -->
+      <div class="card">
+        <!-- Card header with the title "Login" -->
+        <div class="card-header">
+          Login
+        </div>
+        <!-- Card body containing the login form -->
+        <div class="card-body">
+          <!-- Form with id "loginForm" -->
+          <form id="loginForm">
+            <!-- Form group for the username input -->
+            <div class="form-group">
+              <label for="username">Username:</label>
+              <!-- Input field for the username with Bootstrap styling -->
+              <input type="text" class="form-control" id="username"  required>
+            </div>
+            <!-- Form group for the password input -->
+            <div class="form-group">
+              <label for="password">Password:</label>
+              <!-- Input field for the password with Bootstrap styling -->
+              <input type="password" class="form-control" id="password" required>
+            </div>
+            <!-- Button to trigger the login action -->
+            <button id="loginButton" type="button" class="btn btn-primary" onclick="submitForm()">Login</button>
+          </form>
+        </div>
+      </div>
+      <!-- Div for displaying login information with text-center alignment and border -->
+      <div id="loginInfo" class="text-center border"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Script tag to include the app.js file -->
+<script src="app.js"></script>
+</body>
+</html>
